@@ -81,7 +81,7 @@ git rm --cached <文件名>	|从 Git 跟踪中删除文件，保留本地文件	
 git tag <版本号>	|打标签	如 git tag v1.0.0，用于版本发布
 
 ### 七、新手避坑指南
-*提交前必做：* 先 git status 确认变更，再 git add、git commit，避免误提交。
-协作必做：push 前先 git pull，避免代码冲突。
-回退谨慎：git reset --hard 会永久丢失代码，仅在本地未 push 时使用。
-提交信息规范：用 feat:（新功能）、fix:（修复 bug）、docs:（文档）等前缀，方便追溯。
+1. *提交前必做：* 先 git status 确认变更，再 git add、git commit，避免误提交。
+2. *协作必做：* push 前先 git pull，避免代码冲突。
+3. *回退谨慎：* git reset --hard 会永久丢失代码，仅在本地未 push 时使用。
+4. *提交信息规范：* 用 feat:（新功能）、fix:（修复 bug）、docs:（文档）等前缀，方便追溯。
